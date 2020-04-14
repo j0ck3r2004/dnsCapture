@@ -14,9 +14,9 @@ Python 3 module for capturing dns traffic
     ```sh 
     pip3 install scapy
     ```
-   - dnsCapture folder musst be in the same directory asss your program
-        |program.py
-        |dnsCapture(folder)
+   - dnsCapture folder musst be in the same directory as your program
+   program.py
+   dnsCapture(folder)
 # USAGE
 - CAPTURE DNS REQUESTS LIVE
     ```python
