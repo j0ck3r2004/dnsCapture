@@ -11,6 +11,7 @@ Python 3 module for capturing dns traffic
     | VERSION | RUNS |
     | ------ | ------ |
     | 2.7 | `TRUE` |
+    | 3.7 | `TRUE` |
     | 3.8 | `TRUE` |
 - scapy
     - windows
@@ -32,7 +33,7 @@ Python 3 module for capturing dns traffic
     `DNS_TRAFFIC(IFACE,type) | IFACE(string) = your interface, type(1byte) = request(0) or response(1) `
 - CAPTURE DNS REQUESTS LIVE
     ```python
-    import dnsCapture.dnsCapture-3.8 as dnsCapture
+    import dnsCapture.dnsCapture3.8 as dnsCapture
     dns=dnsCapture.DNS_TRAFFIC()
     while True:
         captured=dns.stream('interface',0)
@@ -47,7 +48,7 @@ Python 3 module for capturing dns traffic
     
 - CAPTURE DNS RESPONSES LIVE
     ```python
-    import dnsCapture.dnsCapture-3.8 as dnsCapture
+    import dnsCapture.dnsCapture3.8 as dnsCapture
     dns=dnsCapture.DNS_TRAFFIC()
     while True:
         captured=dns.stream('interface',1)
@@ -62,11 +63,11 @@ Python 3 module for capturing dns traffic
     | ip  | 'x.x.x.x' | requested url's ip |
 - PRINT HELP
     ```python
-    import dnsCapture.dnsCapture as dnsCapture
+    import dnsCapture.dnsCapture3.8 as dnsCapture
     print(dnsCapture.help())
     ```
 - PRINT CREDITS
     ```python
-    import dnsCapture.dnsCapture as dnsCapture
+    import dnsCapture.dnsCapture3.8 as dnsCapture
     print(dnsCapture.credits())
     ```
