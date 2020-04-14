@@ -35,8 +35,8 @@ Python 3 module for capturing dns traffic
     [RETURNING]
     | NAME | VALUE | MEANING |
     | ------ | ------ | ------ |
-    | src | 'x.x.x.x' | DNS |
-    | dst | 'x.x.x.x' | localhost |
+    | src | 'x.x.x.x' | localhost |
+    | dst | 'x.x.x.x' | DNS |
     | url | 'https://X.X' | requested url |
     
 - CAPTURE DNS RESPONSES LIVE
