@@ -16,10 +16,10 @@ Python 3 module for capturing dns traffic
     ```
    - dnsCapture folder musst be in the same directory as your program
     ```
-    |---FOLDER---|
-    |---------------|
+    |--FOLDER--|
+    |----------|
     |program.py|
-    |dnsCapture |
+    |dnsCapture|
     ```
 # USAGE
 - CAPTURE DNS REQUESTS LIVE
