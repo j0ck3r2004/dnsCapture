@@ -1,4 +1,4 @@
-![Build Status](https://img.shields.io/badge/version-1.0-<COLOR>) ![Build Status](https://img.shields.io/badge/version-1.0-<COLOR>)
+![Build Status](https://img.shields.io/badge/version-1.0-<COLOR>)
 # dnsCapture
 # AUTHOR : Vasilis Manthelas [OFFICIAL-WEBSITE](http://j0ck3r2004.000webhostapp.com/)
 Python module for capturing dns traffic
@@ -11,9 +11,9 @@ Python module for capturing dns traffic
 - python
     | VERSION | RUNS |
     | ------ | ------ |
-    | ![Version](https://img.shields.io/badge/2.7-<inactive>) | ![Build Status](https://img.shields.io/badge/-True-<COLOR>) |
-    | ![Version](https://img.shields.io/badge/3.7-<red>) | ![Build Status](https://img.shields.io/badge/-True-<COLOR>) |
-    | ![Version](https://img.shields.io/badge/3.8-<red>) | ![Build Status](https://img.shields.io/badge/-True-<COLOR>) |
+    | ![Version](https://img.shields.io/badge/2.7-red) | ![Build Status](https://img.shields.io/badge/-True-<COLOR>) |
+    | ![Version](https://img.shields.io/badge/3.7-red) | ![Build Status](https://img.shields.io/badge/-True-<COLOR>) |
+    | ![Version](https://img.shields.io/badge/3.8-red) | ![Build Status](https://img.shields.io/badge/-True-<COLOR>) |
 - scapy
     - windows
     ```sh
