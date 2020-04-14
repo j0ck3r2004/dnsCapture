@@ -1,0 +1,8 @@
+README.md
+setup.py
+dnsCapture/__init__.py
+dnsCapture/dnsCapture.py
+dnsCapture.egg-info/PKG-INFO
+dnsCapture.egg-info/SOURCES.txt
+dnsCapture.egg-info/dependency_links.txt
+dnsCapture.egg-info/top_level.txt
