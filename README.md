@@ -7,7 +7,8 @@ Python module for capturing dns traffic
     ```sh 
     $ git clone https://github.com/j0ck3r2004/dnsCapture/
     $ cd dnsCapture
-    $ python -m pip install dist/*.whl
+    $ python3 setup.py bdist_wheel
+    $ python3 -m pip install dist/*.whl
     ```
 - PIP
     ```sh
