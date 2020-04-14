@@ -5,10 +5,14 @@ Python 3 module for capturing dns traffic
 - GITHUB
     - ``` git clone https://github.com/j0ck3r2004/dnsCapture/```
 - PyPi
-    Windows
-    - ``` pip3 install dnsCapture```
-    Linux
-    - ``` python3 -m pip install dnsCapture```
+    - Windows
+    ```sh
+    pip3 install dnsCapture
+    ```
+    - Linux
+    ```sh 
+    python3 -m pip install dnsCapture
+    ```
 # REQUIRMENTS
 - python
     | VERSION | RUNS |
