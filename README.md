@@ -6,6 +6,12 @@ Python module for capturing dns traffic
 - GITHUB
     ```sh 
     $ git clone https://github.com/j0ck3r2004/dnsCapture/
+    $ cd dnsCapture
+    $ python -m pip install dist/*.whl
+    ```
+- PIP
+    ```sh
+    $ pip3 install dnsCapture
     ```
 # REQUIRMENTS
 - python
@@ -34,7 +40,7 @@ Python module for capturing dns traffic
     `DNS_TRAFFIC(IFACE,type) | IFACE(string) = your interface, type(1byte) = request(0) or response(1) `
 - CAPTURE DNS REQUESTS LIVE
     ```python
-    import dnsCapture.dnsCapture3.8 as dnsCapture
+    import dnsCapture.dnsCapture as dnsCapture
     dns=dnsCapture.DNS_TRAFFIC()
     while True:
         captured=dns.stream('interface',0)
@@ -49,7 +55,7 @@ Python module for capturing dns traffic
     
 - CAPTURE DNS RESPONSES LIVE
     ```python
-    import dnsCapture.dnsCapture3.8 as dnsCapture
+    import dnsCapture.dnsCapture as dnsCapture
     dns=dnsCapture.DNS_TRAFFIC()
     while True:
         captured=dns.stream('interface',1)
@@ -64,11 +70,11 @@ Python module for capturing dns traffic
     | ip  | 'x.x.x.x' | requested url's ip |
 - PRINT HELP
     ```python
-    import dnsCapture.dnsCapture3.8 as dnsCapture
+    import dnsCapture.dnsCapture as dnsCapture
     print(dnsCapture.help())
     ```
 - PRINT CREDITS
     ```python
-    import dnsCapture.dnsCapture3.8 as dnsCapture
+    import dnsCapture.dnsCapture as dnsCapture
     print(dnsCapture.credits())
     ```
