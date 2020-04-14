@@ -31,6 +31,13 @@ Python 3 module for capturing dns traffic
         captured=dns.stream('interface',0)
         print(captured)
     ```
+    [RETURNING]
+    | NAME | VALUE | MEANING |
+    | ------ | ------ | ------ |
+    | src | 'x.x.x.x' | DNS |
+    | dst | 'x.x.x.x' | localhost |
+    | url | 'https://X.X' | requested url |
+    
 - CAPTURE DNS RESPONSES LIVE
     ```python
     import dnsCapture.dnsCapture as dnsCapture
@@ -39,6 +46,13 @@ Python 3 module for capturing dns traffic
         captured=dns.stream('interface',1)
         print(captured)
     ```
+    [RETURNING]
+    | NAME | VALUE | MEANING |
+    | ------ | ------ | ------ |
+    | src | 'x.x.x.x' | DNS |
+    | dst | 'x.x.x.x' | localhost |
+    | url | 'https://X.X' | requested url |
+    | ip  | 'x.x.x.x' | requested url's ip |
 - PRINT HELP
     ```python
     import dnsCapture.dnsCapture as dnsCapture
