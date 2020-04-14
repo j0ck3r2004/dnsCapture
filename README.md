@@ -23,6 +23,7 @@ Python 3 module for capturing dns traffic
     |dnsCapture|
     ```
 # USAGE
+    `DNS_TRAFFIC(IFACE,type) | IFACE(string) = your interface, type(1byte) = request(0) or response(1) `
 - CAPTURE DNS REQUESTS LIVE
     ```python
     import dnsCapture.dnsCapture as dnsCapture
