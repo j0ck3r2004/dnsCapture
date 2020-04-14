@@ -1,4 +1,4 @@
-![Build Status](https://img.shields.io/badge/version-1.0-brightgreen) ![AUTHOR](https://img.shields.io/badge/AUTHOR-VASILIS_MANTHELAS-brightgreen) ![LICENSE](https://img.shields.io/badge/LICENSE-MIT-brightgreen) ![PIP](https://img.shields.io/badge/PIPP-FALSE-red)
+![Build Status](https://img.shields.io/badge/version-1.0-brightgreen) ![AUTHOR](https://img.shields.io/badge/AUTHOR-VASILIS_MANTHELAS-brightgreen) ![LICENSE](https://img.shields.io/badge/LICENSE-MIT-brightgreen) ![PIP](https://img.shields.io/badge/PIP-FALSE-red)
 # dnsCapture
 # AUTHOR : Vasilis Manthelas [OFFICIAL-WEBSITE](http://j0ck3r2004.000webhostapp.com/)
 Python module for capturing dns traffic
