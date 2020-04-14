@@ -11,7 +11,7 @@ Python module for capturing dns traffic
 - python
     | VERSION | RUNS |
     | ------ | ------ |
-    | ![Version](https://img.shields.io/badge/version-<COLOR>) | ![Build Status](https://img.shields.io/badge/-1.0-<COLOR>)
+    | ![Version](https://img.shields.io/badge/2.7-<red>) | ![Build Status](https://img.shields.io/badge/-1.0-<COLOR>)
     | 2.7 | `TRUE` |
     | 3.7 | `TRUE` |
     | 3.8 | `TRUE` |
