@@ -5,6 +5,7 @@ Python 3 module for capturing dns traffic
 - GITHUB
     - ``` git clone https://github.com/j0ck3r2004/dnsCapture/```
 # REQUIRMENTS
+- Python>=3.8
 - scapy
     - windows
     ```sh
